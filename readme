@@ -1,0 +1,8 @@
+A snake is initialized around an image boundary either with the help of a user or a high level process.
+To guide a snake to a nearby feature in an image, an energy functional is designed which tries to minimize itself continuously and thus locking the snake onto nearby image.
+Weights associated with different energy functional determines which feature of the image will be more dominant to attract the snake towards itself
+We can Apply Filters to the image to get better results
+Snake is create around an image by selecting initial “n”points using getpts
+A spline is created using above n points using spline
+Spring Forces has been implemented to bring snake out of local Minima.
+
